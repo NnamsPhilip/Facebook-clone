@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/facebook.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Facebook</title>
+</head>
+
+<body>
+
+    <!-- ------------------------------NAVBAR------------------------------- -->
+    <nav class="px-3 d-flex align-items-center justify-content-between" id="nav">
+
+        <!-- ------------------------------NAVBAR-LEFT------------------------------- -->
+        <div class="left d-flex justify-content-between align-items-center">
+            <span class="d-flex justify-content-center align-items-center" id="closeStory">
+                <i class="fa fa-times"></i>
+            </span>
+            <i class="fab fa-facebook logo"></i>
+            <div class="search-box align-items-center">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search Facebook" class="mx-2">
+            </div>
+            <div class="more d-none justify-content-center align-items-center">
+                <i class="fa fa-bars"></i>
+                <p class="p-2">More</p>
+            </div>
+        </div>
+
+        <!-- -------------------NAVBAR-LEFT ON MEDIUM SCREEN------------- -->
+        <div class="search-container p-2">
+            <div class="search-area d-flex align-items-center justify-content-around">
+                <div class="back-arrow d-flex align-items-center justify-content-center">
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+                <div class="search-box d-flex align-items-center">
+                    <input type="text" placeholder="Search Facebook" class="mx-2">
+                </div>
+            </div>
+            <div class="searches py-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="m-0 px-3">Recent searches</p>
+                    <button>Edit</button>
+                </div>
+                <div class="recent-searches">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------NAVBAR-MIDDLE------------------------------- -->
+        <div class="middle justify-content-between align-items-center">
+            <a href="#">
+                <div class="nav-menu menu-active d-flex flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-home icon"></i>
+                    <p class="p-2">Home</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-menu d-flex flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-tv icon"></i>
+                    <p class="p-2">Watch</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-menu d-flex flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-store icon"></i>
+                    <P class="p-2">Marketplace</P>
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-menu d-flex flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-users icon"></i>
+                    <p class="p-2">Groups</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-menu nav-dice d-flex flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-dice-six icon"></i>
+                    <p class="p-2">Gaming</p>
+                </div>
+                <div class="nav-menu nav-bars d-none flex-column justify-content-center align-items-center">
+                    <i class="fa fa-bars"></i>
+                    <p class="p-2">More</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- ------------------------------NAVBAR-RIGHT------------------------------- -->
+        <div class="right d-flex justify-content-between align-items-center">
+            <a href="#" class="px-1">
+                <div class="nav-icon nav-spec d-flex flex-column justify-content-center align-items-center">
+                    <i class="fa fa-th icon icon-spec"></i>
+                    <p class="p-2">Menu</p>
+                </div>
+                <div class="nav-icon nav-plus d-none flex-column justify-content-center align-items-center">
+                    <i class="fa fa-plus icon"></i>
+                    <p class="p-2">Create</p>
+                </div>
+            </a>
+            <a href="#" class="px-1 up Messanger">
+                <div class="nav-icon d-flex flex-column justify-content-center align-items-center">
+                    <i class="fa-brands fa-facebook-messenger icon"></i>
+                    <p class="p-2">Messanger</p>
+                </div>
+            </a>
+            <a href="#" class="px-1 up">
+                <div class="nav-icon Notification d-flex flex-column justify-content-center align-items-center">
+                    <i class="fa-solid fa-bell icon"></i>
+                    <p class="p-2">Notifications</p>
+                </div>
+            </a>
+            <a href="#" class="px-1 up">
+                <div class="nav-icon profile d-flex flex-column justify-content-center align-items-center">
+                    <p class="p-2">Account</p>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- ------------------------------MAIN-SECTION------------------------------- -->
+    <main>
+        <!-- ------------------------------SETTINGS------------------------------- -->
+        <div class="settings mx-2">
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/profile-pics.JPG">
+                    <p>Nnamani Philip</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/friends.png">
+                    <p>Friends</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/group.png">
+                    <p>Groups</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/market.png">
+                    <P>Marketplace</P>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/watch.png">
+                    <p>Watch</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/memory.png">
+                    <p>Memories</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/saved.png">
+                    <p>Saved</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/pages.png">
+                    <p>pages</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/event.png">
+                    <p>Event</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/recent.png">
+                    <p>Most-Recent</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu d-flex align-items-center">
+                    <img src="images/favourite.png">
+                    <p>Favourite</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="menu see-more-option d-flex align-items-center">
+                    <span class="d-flex align-items-center justify-content-center">
+                        <i class="fa fa-chevron-down"></i>
+                    </span>
+                    <p>See more</p>
+                </div>
+            </a>
+
+            <!-- ------------------------------SEE-MORE------------------------------- -->
+            <div class="see-more-content">
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/ad.png">
+                        <p>Ad Center</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/ads.png">
+                        <p>Ads Manager</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/climate.png">
+                        <p>Climate Science Center</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/community.png">
+                        <p>Community Help</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/covid.png">
+                        <p>Covid-19 Information Center</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/health.png">
+                        <p>Emotional Health</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/pay.png">
+                        <p>Facebook Pay</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/fund.png">
+                        <p>Fundraisers</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/game.png">
+                        <p>Gaming Video</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/live.png">
+                        <p>Live Video</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/messanger.png">
+                        <p>Messanger</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/messanger-kid.png">
+                        <p>Messanger kids</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/play.png">
+                        <p>Play Games</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/activities.png">
+                        <p>Recent Ad Activity</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu d-flex align-items-center">
+                        <img src="images/weather.png">
+                        <p>Weather</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="menu see-less-option d-flex align-items-center">
+                        <span class="d-flex align-items-center justify-content-center">
+                            <i class="fa fa-chevron-up"></i>
+                        </span>
+                        <p>See less</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="settings-more my-3 px-2">
+                <a href="#">Privacy</a> . <a href="#">Terms</a> · <a href="#">Advertising</a> ·
+                <a href="#">Ad Choices</a> <a href="#">Cookies</a> . <a href="#">More</a>· Meta © 2022
+            </div>
+        </div>
+
+        <!-- ------------------------------POSTS------------------------------- -->
+        <div class="post-section my-4">
+            <div class="stories py-1 px-3 d-flex flex-column justify-content-between">
+                <div class="sections d-flex justify-content-between">
+                    <div class="story section-box active p-3 py-2 d-flex justify-content-center align-items-center">
+                        Stories
+                    </div>
+                    <div class="reels section-box py-2 d-flex justify-content-center align-items-center">
+                        Reels
+                    </div>
+                    <div class="rooms section-box p-3 d-flex justify-content-center align-items-center">
+                        Rooms
+                    </div>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide my-2" data-bs-ride="carousel">
+                    <div class="carousel-inner"> 
+                        <div class="carousel-item active cards d-flex">
+                            <div class="m-0 p-0 d-flex flex-column justify-content-between" id="my-story">
+                                <div class="me"></div>
+                                <div class="create d-flex flex-column align-items-center justify-content-between">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <p class="my-2">
+                                        Create Story
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- ------------------------------------------------------STORY-PAGE------------------------------------------------- -->
+                            <div class="storyPage">
+                                <div class="storyPage-top d-flex justify-content-between">
+                                    <div class="storyPage-left px-3 d-flex align-items-center">
+                                    </div>
+                                    <div class="storyPage-right p-3 d-flex justify-content-end align-items-center">
+                                        <a href="#" class="px-1 up">
+                                            <div
+                                                class="nav-icon d-flex flex-column justify-content-center align-items-center">
+                                                <i class="fa-brands fa-facebook-messenger icon"></i>
+                                                <p class="p-2">Messanger</p>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="px-1 up">
+                                            <div
+                                                class="nav-icon Notification d-flex flex-column justify-content-center align-items-center">
+                                                <i class="fa-solid fa-bell icon"></i>
+                                                <p class="p-2">Notifications</p>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="px-1 up">
+                                            <div
+                                                class="nav-icon profile d-flex flex-column justify-content-center align-items-center">
+                                                <p class="p-2">Account</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="container-fluid storyPage-bottom">
+                                    <div class="row storyPage-bottom">
+                                        <div class="col-3 storyPage-left py-3 px-0">
+                                            <div class="px-3 d-flex justify-content-between align-items-center">
+                                                <h4 class="m-0">Your story</h4>
+                                                <span class="d-flex justify-content-center align-items-center"
+                                                    id="storyPrivacy">
+                                                    <i class="fa fa-cog"></i>
+
+                                                    <!-- ------------------------------------------------------CUSTOMIZE-STORY-PRIVACY------------------------------------------------- -->
+                                                    <div
+                                                        class="custom-story justify-content-center align-items-center">
+                                                        <div>
+                                                            <div
+                                                                class="top py-3 d-flex justify-content-center align-items-center">
+                                                                <b>Story privacy</b>
+                                                            </div>
+                                                            <div class="middle p-3">
+                                                                <div>
+                                                                    <b>Who can see your story?</b>
+                                                                    <p>Your story will be visible for 24hours on
+                                                                        Facebook and Messanger.</p>
+                                                                    <br>
+                                                                    <ul class="m-0 px-0">
+                                                                        <li class="active-custom py-2 px-1">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <span
+                                                                                    class="d-flex justify-content-center align-items-center">
+                                                                                    <i class="fa fa-globe i"></i>
+                                                                                </span>
+                                                                                <div>
+                                                                                    <b>public</b>
+                                                                                    <br>
+                                                                                    <p>
+                                                                                        Anyone on Facebook and Messanger
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <button></button>
+                                                                        </li>
+                                                                        <li class=" py-2 px-1">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <span
+                                                                                    class="d-flex justify-content-center align-items-center">
+                                                                                    <i
+                                                                                        class="fa-solid fa-user-group i"></i>
+                                                                                </span>
+                                                                                <div>
+                                                                                    <b>Friends</b>
+                                                                                    <br>
+                                                                                    <p>
+                                                                                        Only your Facebook friends
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <button></button>
+                                                                        </li>
+                                                                        <li class=" py-2 px-1">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <span
+                                                                                    class="d-flex justify-content-center align-items-center">
+                                                                                    <i
+                                                                                        class="fa-solid fa-user-pen i"></i>
+                                                                                </span>
+                                                                                <div>
+                                                                                    <b>Custom</b>
+                                                                                    <br>
+                                                                                    <p>
+                                                                                        Choose people to see your Story
+                                                                                        to
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <button></button>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="under">
+                                                                    <p>Only your friends and connections can reply
+                                                                        directly to your story.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bottom p-3 d-flex justify-content-end">
+                                                                <button class="btn-1 py-1 px-2" id="cancel-custom">
+                                                                    Cancel
+                                                                </button>
+                                                                <button class="btn-2 py-2 px-5">
+                                                                    Save
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="my-settings p-3 d-flex align-items-center">
+                                                <div class="prof"></div>
+                                                <p class="m-0">Nnamani Philip</p>
+                                            </div>
+                                            <div class="p-2 confirm-story flex-column justify-content-between ">
+                                                <div class="p-2 top d-flex align-items-center">
+                                                    <span
+                                                        class="p-3 mx-2 d-flex justify-content-center align-items-center">
+                                                        <i class="fa fa-font"></i>
+                                                    </span>
+                                                    <p class="m-0">Add text</p>
+                                                </div>
+                                                <div class="p-3 bottom d-flex justify-content-between">
+                                                    <div class="discard py-2">Discard</div>
+                                                    <div class="share py-2">Share to story</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col px-0 storyPage-right d-flex justify-content-center align-items-center">
+                                            <div class="create-box mx-2 d-flex flex-column justify-content-center align-items-center"
+                                                id="create-box">
+                                                <input type="file" title=" " id="image-file">
+                                                <span class="my-2 d-flex justify-content-center align-items-center">
+                                                    <i class="fa-solid fa-image"></i>
+                                                </span>
+                                                <p>Create a photo story</p>
+                                            </div>
+                                            <div class="p-3 previewUpload flex-column justify-content-between">
+                                                <p class="m-0 ">Preview</p>
+                                                <div
+                                                    class="p-3 d-flex flex-column justify-content-between align-items-center">
+                                                    <div class="custom-preview d-flex align-items-center">
+                                                        <img src="images/profile-pics.JPG" id="custom-image">
+                                                    </div>
+                                                    <b>Select photo to crop and rotate</b>
+                                                </div>
+                                            </div>
+                                            <div class="create-box mx-2 d-flex flex-column justify-content-center align-items-center"
+                                                id="create-box">
+                                                <span class="my-2 d-flex justify-content-center align-items-center">
+                                                    <i class="fa fa-font"></i>
+                                                </span>
+                                                <p>Create a text story</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container room mt-3 py-2 d-flex flex-column">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 room-1 px-3 py-2 d-flex justify-content-between">
+                        <div class="my"></div>
+                        <button class="btn-lg d-flex justify-content-start" id="upload">
+                            What's on your mind, Nnamani?
+                        </button>
+                        <div class="create-post justify-content-center align-items-center">
+                            <div>
+                                <div class="head p-2 d-flex justify-content-between align-items-center">
+                                    <h5 class="m-0 d-flex justify-content-center align-items-center">
+                                        Create post
+                                    </h5>
+                                    <span class=" " id="close-Post">
+                                        <i class="fa fa-times"></i>
+                                    </span>
+                                </div>
+                                <div class="body p-3">
+                                    <div class="privacy d-flex align-items-center">
+                                        <div class="my"></div>
+                                        <div class="px-2">
+                                            <p class="m-0">Nnamani philip is <img src="images/cake.png"> celebrating a
+                                                birthday.</p>
+                                            <button class="p-1">
+                                                <i class="fa fa-globe"></i>
+                                                <b>Public</b>
+                                                <i class="fa fa-caret-down"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <textarea placeholder="what's on your mind, Nnamani?" class="my-3"></textarea>
+                                    <div class="backgrounds d-flex justify-content-between">
+                                        <img src="images/colors.png">
+                                        <i class="fa-solid fa-face-smile"></i>
+                                    </div>
+                                    <div class="my-3 add-to-post p-2 d-flex align-items-center">
+                                        <p class="m-0 px-3">
+                                            Add to your post
+                                        </p>
+                                        <span>
+                                            <p class="p-2">Photo/Video</p>
+                                            <i class="fa-solid fa-images"></i>
+                                        </span>
+                                        <span>
+                                            <p class="p-2">Tag people</p>
+                                            <i class="fa-solid fa-user-tag px-2"></i>
+                                        </span>
+                                        <span>
+                                            <p class="p-2">Feeling/activity</p>
+                                            <i class="fa-solid fa-face-grin px-2"></i>
+                                        </span>
+                                        <span>
+                                            <p class="p-2">Check in</p>
+                                            <i class="fa-solid fa-location-dot px-2"></i>
+                                        </span>
+                                        <span>
+                                            <p class="p-2">Live event</p>
+                                            <i class="fa-solid fa-flag px-2"></i>
+                                        </span>
+                                        <span>
+                                            <p class="p-2">More</p>
+                                            <i class="fa-solid fa-ellipsis px-2"></i>
+                                        </span>
+                                    </div>
+                                    <div class="py-2 confirm-post d-flex justify-content-center text-align-center">
+                                        <b>post</b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mt-2">
+                    <div class="col-12 row-2 p-0 d-flex justify-content-between">
+                        <div class="iconz d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-video "></i>
+                            <p class="mt-3 ml-2">Live video</p>
+                        </div>
+                        <div class="iconz d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-images mt-1"></i>
+                            <p class="mt-3 ml-2">Photo/video</p>
+                        </div>
+                        <div class="iconz d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-face-laugh mt-1"></i>
+                            <p class="mt-3 ml-2">Feeling/activity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container post-update mt-3 py-2">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <div class="d-flex justify-content-between">
+                            <div class="poster"></div>
+                            <div class="time">
+                                <a href="#">
+                                    <h6>Vicky Stonez</h6>
+                                </a>
+                                <p><a href="#" class="">April 30 at 8:45pm .<i class="fa-solid fa-earth-africa"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="col-12">
+                        <p>A perfect day. A perfect smile. Is to be considered to live a blessed life. Am not
+                            pretty
+                            buh av got the smile for you. Fams. <br>
+                            Say something nice😍😍🥰🥰. <br>
+                            Just like a did. Hsd Vicky loves you all</p>
+                    </div>
+                    <div class="container py-2">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-8 picture-1"></div>
+                            <div class="col-4 p-0">
+                                <div class="picture-2"></div>
+                                <div class="picture-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 py-2 px-0 d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-thumbs-up thumbs"></i>
+                                    <P class="px-2 m-0"><a href="#">Victor, Vingil Richeal and 95 others</a></P>
+                                </div>
+                                <p class="m-0"><a href="#">21 comments</a></p>
+                            </div>
+
+                            <div class="col-12 py-1 px-0 reaction d-flex">
+                                <button type="button" class="btn d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-thumbs-up mx-2"></i>
+                                    <p class="m-0">Like</p>
+                                </button>
+                                <button type="button" class="btn d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-message mx-2"></i>
+                                    <p class="m-0">Comment</p>
+                                </button>
+                                <button type="button" class="btn d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-share mx-2"></i>
+                                    <p class="m-0">Share</p>
+                                </button>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="col-12 py-2 px-0 d-flex justify-content-between align-items-center">
+                                    <p class="m-0"><a href="#">
+                                            View previous comment
+                                        </a></p>
+                                    <a href="#" class=" d-flex align-items-center">
+                                        <p class="MR mx-1 my-0">Most relevant</p>
+                                        <i class="fa-solid fa-sort-down"></i>
+                                    </a>
+                                </div>
+                                <div class="comment-section d-flex">
+                                    <img src="images/img-12.png">
+                                    <div class="mx-2">
+                                        <div class="p-2 friend-comment">
+                                            <p class="m-0"><a href="#">Queen Alfreda</a></p>
+                                            <P class="m-0">Cutie mei</P>
+                                        </div>
+                                        <div class="my-2 p-tags d-flex justify-content-between">
+                                            <p class="m-0"><a href="#">Like</a></p>
+                                            <p class="m-0"><a href="#">Reply</a></p>
+                                            <p class="m-0"><a href="#">3h</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 your-comment d-flex justify-content-between">
+                                    <img src="images/profile-pics.JPG">
+                                    <div
+                                        class="p-2 m-0 write-comment d-flex justify-content-between align-items-center">
+                                        <textarea placeholder="Write a comment" rows="1" cols="37"
+                                            onkeypress="autoGrow(this);" onkeyup="autoGrow(this)"></textarea>
+                                        <div class="files d-flex">
+                                            <i class="i fa-solid fa-face-smile"></i>
+                                            <i class="i fa-solid fa-camera"></i>
+                                            <i class="i fa-solid fa-gif"></i>
+                                            <i class="i fa-solid fa-note-sticky"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <small>Press Enter to post</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------ASIDE------------------------------- -->
+        <div class="aside">
+            <div class="sponsors">
+                <h6 class="px-2">Sponsored</h6>
+                <div class="sponsor p-2 my-1 d-flex align-items-center">
+                    <img src="images/sponsor1.png">
+                    <div>
+                        <b>Made-in-china.com</b>
+                    </div>
+                    <span class="p-2 justify-content-center align-items-center">
+                        <i class="fa fa-ellipsis-h"></i></span>
+                </div>
+                <div class="sponsor p-2 my-1 d-flex align-items-center">
+                    <img src="images/sponsor2.jpg">
+                    <div class="d-flex">
+                        <b>Jumia</b>
+                    </div>
+                    <span class="p-2 justify-content-center align-items-center">
+                        <i class="fa fa-ellipsis-h"></i></span>
+                </div>
+            </div>
+
+            <!-- <div class="friend-requests py-3">
+                    <div class="request-box px-2 d-flex justify-content-between">
+                        <h6>Friend requests</h6>
+                        <a href="#">See all</a>
+                    </div>
+                    <div class="request p-2 d-flex">
+                        <img src="images/img-9.png">
+                        <div class="request-info mx-2">
+                            <div class="name d-flex justify-content-between">
+                                <h6> Lucky Amadi</h6>
+                                <a href="#">6d</a>
+                            </div>
+                            <div class="mutual-friends">
+                                <small>31 mutual friends</small>
+                            </div>
+                            <div class="request-option">
+                                <button>Confirm</button>
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            <div class="birthdays py-3">
+                <h6 class="px-2">Birthdays</h6>
+                <div class="birthday p-2 d-flex">
+                    <i class="fa fa-gift"></i>
+                    <p class="m-0">
+                        <b>Victoria Johnson</b> and <b>3 others</b>
+                        <small>have birthdays today.</small>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contacts py-3">
+                <div class="d-flex align-item-center justify-content-between">
+                    <h6>contacts</h6>
+                    <div class="icons d-flex">
+                        <i class="fa-solid fa-video-plus"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div class="contact">
+                    <img src="images/img-9.png">
+                    <b>Micheal Prist</b>
+                </div>
+                <div class="contact">
+                    <img src="images/img-10.png">
+                    <b>Jessica Moore</b>
+                </div>
+                <div class="contact">
+                    <img src="images/img-8.png">
+                    <b>Johnson</b>
+                </div>
+                <div class="contact">
+                    <img src="images/img-7.png">
+                    <b>Ndor Prosper</b>
+                </div>
+                <div class="contact">
+                    <img src="images/img-10.png">
+                    <b>Peter Endurance</b>
+                </div>
+            </div>
+
+            <div class="groups my-3">
+                <h6 class="px-2">Group conversations</h6>
+                <div class="group py-0 px-2 d-flex align-items-center">
+                    <img src="images/img-15.png">
+                    <b>THE ROYALS</b>
+                </div>
+                <div class="group py-2 px-2 d-flex align-items-center">
+                    <img src="images/img-3.png">
+                    <b>Calipo legends</b>
+                </div>
+                <div class="group py-2 px-2 d-flex align-items-center">
+                    <span class="d-flex justify-content-center align-item-center">
+                        <i class="fa-solid fa-plus d-flex align-self-center"></i>
+                    </span>
+                    <h6>Create new group</h6>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/facebook.js"></script>
+</body>
+
+</html>
